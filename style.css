@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+div {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #0000ff;
+}
+
+.titulo{
+     color: #0000ff;
+     text-transform: uppercase;
+}
+/*Adicionando o flexbox*/
+nav{
+    display: flex;
+    justify-content: center; /*alinhamento horizontal*/
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #0000ff;
+}
+
+section#projetos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section#projetos . card {
+    width: 30%;
+    background: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
